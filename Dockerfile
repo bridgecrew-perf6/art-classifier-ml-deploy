@@ -8,6 +8,5 @@ RUN pip3 install -r /tmp/requirements.txt --no-cache-dir
 WORKDIR /
 COPY . .
 
-EXPOSE 5000
 
-CMD ["voila","--no-browser","--port=5000","/app/art-classifier-ui.ipynb"]
+CMD voila --no-browser --port=$PORT /art-classifier-ui.ipynb
