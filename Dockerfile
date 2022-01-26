@@ -9,4 +9,4 @@ WORKDIR /
 COPY . .
 
 
-CMD voila --no-browser --port=$PORT /art-classifier-ui.ipynb
+CMD voila --no-browser --port=$PORT --Voila.ip=0.0.0.0 /art-classifier-ui.ipynb
