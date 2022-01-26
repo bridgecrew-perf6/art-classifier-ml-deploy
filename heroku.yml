@@ -1,5 +1,3 @@
 build:
   docker:
     web: Dockerfile
-run:
-  web: voila --port=$PORT --Voila.ip=0.0.0.0 --no-browser --template=material --enable_nbextensions=True /app/art-classifier-ui.ipynb
