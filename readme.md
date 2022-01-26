@@ -1,3 +1,3 @@
 # Modern Art Style Classifer
 
-Available at [Moder Art Classifier](https://modern-art-classifier.herokuapp.com/)
+Available at [Modern Art Classifier](https://modern-art-classifier.herokuapp.com/)
