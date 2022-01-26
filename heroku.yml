@@ -1,5 +1,3 @@
 build:
   docker:
     web: Dockerfile
-xxrun:
-  xxweb: voila --port=$PORT --no-browser /art-classifier-ui.ipynb
