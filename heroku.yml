@@ -1,3 +1,5 @@
 build:
   docker:
     web: Dockerfile
+run:
+  web: voila --port=$PORT /app/art-classifier-ui.ipynb
