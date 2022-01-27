@@ -10,4 +10,4 @@ COPY ./app .
 
 EXPOSE 8866
 
-CMD voila --port=8866 --Voila.ip=0.0.0.0 /art-classifier-ui.ipynb
+CMD voila --port=8866 --no-browser /art-classifier-ui.ipynb
