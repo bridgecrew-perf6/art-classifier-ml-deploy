@@ -6,7 +6,8 @@ COPY requirements.txt /tmp/
 RUN pip3 install -r /tmp/requirements.txt --no-cache-dir
 
 WORKDIR /
-COPY . .
+COPY ./app .
 
+EXPOSE 8866
 
-CMD voila --no-browser --port=$PORT --Voila.ip=0.0.0.0 /art-classifier-ui.ipynb
+CMD voila --port=8866 --Voila.ip=0.0.0.0 /art-classifier-ui.ipynb
