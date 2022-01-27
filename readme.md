@@ -20,7 +20,8 @@ git clone git@github.com:todgru/art-classifier-ml-deploy.git
 Build the docker image (2Gb)
 
 ```
-docker build docker-files/. -t modern-art-classifier
+cd app
+docker build . -t modern-art-classifier
 ```
 
 Run the docker image
