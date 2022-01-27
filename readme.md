@@ -1,7 +1,33 @@
 # Modern Art Style Classifer
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/todgru/art-classifier-ml-deploy/HEAD?urlpath=voila%2Frender%2Fart-classifier-ui.ipynb)
+### Quick start
 
-https://mybinder.org/v2/gh/todgru/art-classifier-ml-deploy/HEAD?urlpath=voila%2Frender%2Fart-classifier-ui.ipynb
+Launch the Modern Art Classifier using any one of these links from MyBinder.org.
 
-https://tinyurl.com/modern-art-classifier
+1. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/todgru/art-classifier-ml-deploy/HEAD?urlpath=voila%2Frender%2Fapp%2Fart-classifier-ui.ipynb).
+2. https://mybinder.org/v2/gh/todgru/art-classifier-ml-deploy/HEAD?urlpath=voila%2Frender%2Fapp%2Fart-classifier-ui.ipynb
+3. https://tinyurl.com/modern-art-classifier
+
+### Docker file
+
+Clone this repo.
+
+```
+git clone git@github.com:todgru/art-classifier-ml-deploy.git
+```
+
+Build the docker image (2Gb)
+
+```
+docker build . -t modern-art-classifier
+```
+
+Run the docker image
+
+```
+docker run -p 8866:8866 modern-art-Classifier
+```
+
+Open a browser to this address: http://127.0.0.1:8866
+
+Classifiy some art!
