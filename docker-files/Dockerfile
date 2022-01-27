@@ -6,7 +6,7 @@ COPY requirements.txt /tmp/
 RUN pip3 install -r /tmp/requirements.txt --no-cache-dir
 
 WORKDIR /
-COPY ./app .
+COPY ../app .
 
 EXPOSE 8866
 
