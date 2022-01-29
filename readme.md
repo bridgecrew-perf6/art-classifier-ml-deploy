@@ -5,7 +5,7 @@
 Launch the Modern Art Classifier using any one of these links from MyBinder.org.
 _(The app will take a few minutes to launch the first time.)_
 
-1. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/todgru/art-classifier-ml-deploy/HEAD?urlpath=voila%2Frender%2Fapp%2Fart-classifier-ui.ipynb).
+1. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/todgru/art-classifier-ml-deploy/HEAD?urlpath=voila%2Frender%2Fapp%2Fart-classifier-ui.ipynb)
 2. https://mybinder.org/v2/gh/todgru/art-classifier-ml-deploy/HEAD?urlpath=voila%2Frender%2Fapp%2Fart-classifier-ui.ipynb
 3. https://tinyurl.com/modern-art-classifier
 
