@@ -1,0 +1,207 @@
+[
+  {
+      "contentId": 184917,
+      "artistName": "Frida Kahlo",
+      "url": "frida-kahlo",
+      "lastNameFirst": "Kahlo Frida ",
+      "birthDay": "/Date(-1988150400000)/",
+      "deathDay": "/Date(-504921600000)/",
+      "birthDayAsString": "1907",
+      "deathDayAsString": "1954",
+      "image": "https://uploads4.wikiart.org/images/magdalena-carmen-frieda-kahlo-y-calderón-de-rivera/self-portrait-with-necklace-of-thorns-1940.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Frida_Kahlo",
+      "dictonaries": [
+          0,
+          338,
+          2775,
+          314,
+          336
+      ]
+  },
+  {
+      "contentId": 204422,
+      "artistName": "M.C. Escher",
+      "url": "m-c-escher",
+      "lastNameFirst": "Escher M.C.",
+      "birthDay": "/Date(-2257632000000)/",
+      "deathDay": "/Date(70502400000)/",
+      "birthDayAsString": "June 17, 1898",
+      "deathDayAsString": "March 27, 1972",
+      "image": "https://uploads2.wikiart.org/images/m-c-escher.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/M._C._Escher",
+      "dictonaries": [
+          16743,
+          362,
+          336
+      ]
+  },
+  {
+      "contentId": 210903,
+      "artistName": "Rene Magritte",
+      "url": "rene-magritte",
+      "lastNameFirst": "Magritte Rene",
+      "birthDay": "/Date(-2244067200000)/",
+      "deathDay": "/Date(-75168000000)/",
+      "birthDayAsString": "November 21, 1898",
+      "deathDayAsString": "August 15, 1967",
+      "image": "https://uploads5.wikiart.org/images/rene-magritte.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Ren%C3%A9_Magritte",
+      "dictonaries": [
+          6543,
+          336
+      ]
+  },
+  {
+      "contentId": 199938,
+      "artistName": "Paul Klee",
+      "url": "paul-klee",
+      "lastNameFirst": "Klee Paul",
+      "birthDay": "/Date(-2841350400000)/",
+      "deathDay": "/Date(-931219200000)/",
+      "birthDayAsString": "December 18, 1879",
+      "deathDayAsString": "June 29, 1940",
+      "image": "https://uploads1.wikiart.org/images/paul-klee.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Paul_Klee",
+      "dictonaries": [
+          324,
+          1856,
+          14813,
+          1853,
+          321,
+          2750,
+          336,
+          3140
+      ]
+  },
+  {
+      "contentId": 219594,
+      "artistName": "Kazimir Malevich",
+      "url": "kazimir-malevich",
+      "lastNameFirst": "Malevich Kazimir",
+      "birthDay": "/Date(-2867097600000)/",
+      "deathDay": "/Date(-1092960000000)/",
+      "birthDayAsString": "February 23, 1879",
+      "deathDayAsString": "May 15, 1935",
+      "image": "https://uploads8.wikiart.org/images/kazimir-malevich.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Kazimir_Malevich",
+      "dictonaries": [
+          324,
+          325,
+          6920,
+          2013,
+          2777,
+          1505,
+          6846,
+          331,
+          2012
+      ]
+  },
+  {
+      "contentId": 254484,
+      "artistName": "El Lissitzky",
+      "url": "el-lissitzky",
+      "lastNameFirst": "El Lissitzky",
+      "birthDay": "/Date(-2496355200000)/",
+      "deathDay": "/Date(-883785600000)/",
+      "birthDayAsString": "November 23, 1890",
+      "deathDayAsString": "December 30, 1941",
+      "image": "https://uploads8.wikiart.org/temp/36d21884-b8d0-43b1-a327-94edc667de61.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/El_Lissitzky",
+      "dictonaries": [
+          324,
+          325,
+          332,
+          14813,
+          15970,
+          1513,
+          1505,
+          331,
+          2012,
+          11438
+      ]
+  },
+  {
+      "contentId": 203777,
+      "artistName": "Jean-Michel Basquiat",
+      "url": "jean-michel-basquiat",
+      "lastNameFirst": "Basquiat Jean-Michel ",
+      "birthDay": "/Date(-284860800000)/",
+      "deathDay": "/Date(587347200000)/",
+      "birthDayAsString": "December 22, 1960",
+      "deathDayAsString": "August 12, 1988",
+      "image": "https://uploads3.wikiart.org/images/jean-michel-basquiat.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Jean-Michel_Basquiat",
+      "dictonaries": [
+          1368,
+          355,
+          375
+      ]
+  },
+  {
+      "contentId": 335719,
+      "artistName": "Banksy",
+      "url": "banksy",
+      "lastNameFirst": "Banksy",
+      "birthDay": "/Date(126230400000)/",
+      "deathDay": "/Date(253402300799999)/",
+      "birthDayAsString": "c.1974",
+      "deathDayAsString": null,
+      "image": "https://uploads7.wikiart.org/images/banksy.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Banksy",
+      "dictonaries": [
+          1485,
+          375
+      ]
+  },
+  {
+      "contentId": 326783,
+      "artistName": "Blek le Rat",
+      "url": "blek-le-rat",
+      "lastNameFirst": "le Rat Blek",
+      "birthDay": "/Date(-568080000000)/",
+      "deathDay": "/Date(253402300799999)/",
+      "birthDayAsString": "1952",
+      "deathDayAsString": null,
+      "image": "https://uploads3.wikiart.org/images/blek-le-rat.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Blek_le_Rat",
+      "dictonaries": [
+          1221,
+          375
+      ]
+  },
+  {
+      "contentId": 335699,
+      "artistName": "TAKI 183",
+      "url": "taki-183",
+      "lastNameFirst": "TAKI 183",
+      "birthDay": "/Date(253402300799999)/",
+      "deathDay": "/Date(253402300799999)/",
+      "birthDayAsString": null,
+      "deathDayAsString": null,
+      "image": "https://uploads8.wikiart.org/temp/b350276d-4770-48fc-ac61-e15478a99528.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/TAKI_183",
+      "dictonaries": [
+          1368,
+          2166,
+          375
+      ]
+  },
+  {
+      "contentId": 335704,
+      "artistName": "Phase 2",
+      "url": "phase-2",
+      "lastNameFirst": "Phase 2",
+      "birthDay": "/Date(-454982400000)/",
+      "deathDay": "/Date(1576108800000)/",
+      "birthDayAsString": "August 2, 1955",
+      "deathDayAsString": "December 12, 2019",
+      "image": "https://uploads0.wikiart.org/00338/images/phase-2/1.jpg!Portrait.jpg",
+      "wikipediaUrl": "http://en.wikipedia.org/wiki/Phase_2",
+      "dictonaries": [
+          1368,
+          375,
+          16692
+      ]
+  }
+
+]

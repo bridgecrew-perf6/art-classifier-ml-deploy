@@ -1,0 +1,59 @@
+.
+├── app
+│   ├── Dockerfile
+│   ├── art-classifier-model
+│   │   └── art-classification-multi-class-mobilenet-v3-large-sigmoid-0.1dropout-softmax
+│   │       ├── assets
+│   │       ├── keras_metadata.pb
+│   │       ├── saved_model.pb
+│   │       └── variables
+│   │           ├── variables.data-00000-of-00001
+│   │           └── variables.index
+│   ├── art-classifier-ui.ipynb
+│   ├── exampleArtists.json
+│   └── requirements.txt
+├── art-classifier-descriptive-modeling.ipynb
+├── art-classifier-examples-dictionary-generation.ipynb
+├── art-classifier-preprocessing-model-training.ipynb
+├── art-test-source-images-unsplash
+│   ├── autumn-studio-zv3ckJKftC4-unsplash.jpg
+│   ├── europeana-88w2yI5A78Y-unsplash.jpg
+│   ├── jon-tyson-unnamed-unsplash.jpg
+│   ├── mika-baumeister-jNIU51GAEZw-unsplash.jpg
+│   ├── steve-johnson-unnamed-unsplash.jpg
+│   ├── zachary-brooks-uCqVRj36gEM-unsplash.jpg
+│   └── zoe-graham-L8IgqwvUMAg-unsplash.jpg
+├── artist-meta-data
+│   ├── aleksandra-ekster.json
+│   ├── andy-warhol.json
+│   ├── artists.json
+│   ├── banksy.json
+│   ├── blek-le-rat.json
+│   ├── el-lissitzky.json
+│   ├── frida-kahlo.json
+│   ├── georges-braque.json
+│   ├── jackson-pollock.json
+│   ├── jean-michel-basquiat.json
+│   ├── kazimir-malevich.json
+│   ├── m-c-escher.json
+│   ├── olga-rozanova.json
+│   ├── original-artists.json
+│   ├── pablo-picasso.json
+│   ├── paul-klee.json
+│   ├── phase-2.json
+│   ├── rene-magritte.json
+│   ├── roy-lichtenstein.json
+│   ├── taki-183.json
+│   └── wassily-kandinsky.json
+├── artist_name_format.py
+├── image_count_per_artist.json
+├── image_count_per_style.json
+├── notes-todos.md
+├── project-hierarchy-tree.txt
+├── readme.md
+├── report-images
+│   ├── art-style-by-percentage-of-dataset.png
+│   ├── artist-by-percentage-of-dataset.png
+│   └── artist-contribution-to-individual-styles-in-the-dataset.png
+├── requirements.txt
+└── sankey_artist_style_count.json

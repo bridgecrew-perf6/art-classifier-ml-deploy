@@ -26,7 +26,7 @@ docker build . -t modern-art-classifier
 Run the docker image
 
 ```
-docker run -p 8866:8866 modern-art-Classifier
+docker run -p 8866:8866 modern-art-classifier
 ```
 
 Open a browser to this address: http://127.0.0.1:8866
