@@ -1,0 +1,25 @@
+{
+  "name": "modern-art-classifier",
+  "version": "0.0.1",
+  "description": "",
+  "mainx": "index.js",
+  "license": "NONE",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "@tensorflow/tfjs": ">=3.1.0"
+  },
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-optimize --public-url ./"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-runtime": ">=7.16.10",
+    "babel-core": "*",
+    "babel-plugin-transform-runtime": ">=7.0.0-0",
+    "babel-polyfill": "*",
+    "babel-preset-env": "*",
+    "core-js": "^3.21.0"
+  }
+}
