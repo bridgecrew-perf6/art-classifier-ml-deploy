@@ -16,7 +16,6 @@
  */
 
 import * as tf from '@tensorflow/tfjs';
-// const tfn = require("@tensorflow/tfjs-node");
 
 // @TODO why does this work...
 import {IMAGENET_CLASSES} from './imagenet_classes';
