@@ -16,16 +16,15 @@
  */
 
 import * as tf from '@tensorflow/tfjs';
+// const tfn = require("@tensorflow/tfjs-node");
 
 // @TODO why does this work...
 import {IMAGENET_CLASSES} from './imagenet_classes';
 const CLASSES = ['Abstract Art', 'Abstract Expressionism', 'Cubism', 'Expressionism', 'Naïve Art (Primitivism)', 'Op Art', 'Pop Art', 'Street art', 'Suprematism', 'Surrealism']
 
-
-// @TODO ... and this doesn't work?
-// const MODEL_URL ='web_model/model.json'
-// const MODEL_URL = './model.json'
-const MODEL_URL = "https://raw.githubusercontent.com/todgru/art-classifier-ml-deploy/js/app/art-classifier-model/web_model/model.json"
+// this works if serving from a web server, see `npm run serve-model`
+const MODEL_URL = 'http://localhost:1235/web_model/model.json'
+// const MODEL_URL = "https://raw.githubusercontent.com/todgru/art-classifier-ml-deploy/js/app/art-classifier-model/web_model/model.json"
 const IMAGE_SIZE = 224;
 const TOPK_PREDICTIONS = 10;
 
@@ -33,8 +32,6 @@ let mobilenet;
 const mobilenetDemo = async () => {
   status('Loading model...');
 
-  // loading models and bins from github works.
-  // @TODO why can't load from local path in node js file?
   mobilenet = await tf.loadGraphModel(MODEL_URL);
 
   // Warmup the model. This isn't necessary, but makes the first prediction
@@ -106,10 +103,10 @@ async function predict(imgElement) {
  * @param topK The number of top predictions to show.
  */
 export async function getTopKClasses(logits, topK) {
-  console.log("logits",logits)
-  console.log("topk",topK)
+  // console.log("logits",logits)
+  // console.log("topk",topK)
   const values = await logits.data();
-console.log(values)
+  //console.log(values)
   const valuesAndIndices = [];
   for (let i = 0; i < values.length; i++) {
     valuesAndIndices.push({value: values[i], index: i});

@@ -7,11 +7,12 @@
   "private": true,
   "dependencies": {
     "@babel/runtime": "^7.16.7",
-    "@tensorflow/tfjs": ">=3.1.0"
+    "@tensorflow/tfjs": "^3.14.0"
   },
   "scripts": {
-    "watch": "cross-env NODE_ENV=development parcel index.html --no-hmr --open",
-    "build": "cross-env NODE_ENV=production parcel build index.html --no-optimize --public-url ./"
+    "watch": "cross-env NODE_ENV=development parcel index.html --open",
+    "build": "cross-env NODE_ENV=production parcel build index.html --no-optimize --public-url ./",
+    "serve-model": "http-server --cors -p 1235"
   },
   "devDependencies": {
     "@babel/core": "^7.16.12",
@@ -20,6 +21,8 @@
     "babel-plugin-transform-runtime": ">=7.0.0-0",
     "babel-polyfill": "*",
     "babel-preset-env": "*",
-    "core-js": "^3.21.0"
+    "buffer": "^6.0.3",
+    "core-js": "^3.21.0",
+    "process": "^0.11.10"
   }
 }
